@@ -1,7 +1,7 @@
 <html>
   <body>
     <h1>Hi, I am Muhammad Hammad</h1>
-    <h4>&nbsp;&nbsp;&nbsp;I am currently pursuing a Bachelor's degree in Computer Science and Business at Memorial University of Newfoundland.</h4>
+    <h4>&nbsp;&nbsp;&nbsp;I am currently pursuing a Bachelor of Science degree in Computer Science and Business at Memorial University of Newfoundland.</h4>
     <a href="https://www.cs.mun.ca/~mhnaeem">Check out more about me here!</a>
     <br><br><br>
     <h2>Hello World Project</h2>
