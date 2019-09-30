@@ -1,0 +1,12 @@
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    x = '<html><body><br><h1>Hi, I am Muhammad Hammad.</h1><br><p>You can find more information about me at -> <a href="https://www.cs.mun.ca/~mhnaeem">https://www.cs.mun.ca/~mhnaeem</a></p><br><br><br><h3>"Hello World Project:</h3><br><p>"This is just a fun project, I am trying to add a hello world program in all the programming languages and frameworks I come in contact with.</p></body></html>'
+    return x
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
