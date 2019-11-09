@@ -1,0 +1,6 @@
+{
+  "short_name": "Hello World",
+  "name": "Hello World React Application",
+  "start_url": "./index.html",
+  "display": "standalone"
+}

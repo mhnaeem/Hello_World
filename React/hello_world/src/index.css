@@ -1,0 +1,114 @@
+:root{
+  --headingFont: 'Ceviche One', cursive;
+  --paragraphFont: 'Shadows Into Light', cursive;
+  --color: rgba(241, 231, 219, 0.8);
+  --headingBackground: rgba(0,52,89,0.9);
+}
+
+body{
+  background-color: var(--color);
+  display: block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading{
+  font-family: var(--headingFont);
+  font-size: 3rem;
+  background-color: var(--headingBackground);
+  width: 100vw;
+  height: 30vh;
+  border-radius: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading:hover > .color1{
+  color: palevioletred;
+}
+
+.main-heading:hover > .color2{
+  color: blue;
+}
+
+.main-heading:hover > .color3{
+  color: red;
+}
+
+.main-heading:hover > .color4{
+  color: yellow;
+}
+
+.main-heading:hover > .color5{
+  color: green;
+}
+
+.main-heading:hover span{
+  transition-delay: 0.5s;
+  transition-duration: 2s;
+  font-size: 1.5em;
+}
+
+.main-heading:hover > .remove{
+  display: none;
+}
+
+.color1{
+  color: red;
+}
+
+.color2{
+  color: yellow;
+}
+
+.color3{
+  color: green;
+}
+
+.color4{
+  color:purple;
+}
+
+.color5{
+  color: blue;
+}
+
+
+p{
+  font-family: var(--paragraphFont);
+  font-size: 1.6rem;
+  margin: 30px;
+}
+
+.link{
+  text-decoration: none;
+  color: yellowgreen;
+}
+
+.project-heading{
+  font-family: var(--headingFont);
+  font-size: 4rem;
+  margin: 30px;
+}
+
+.project-heading:hover{
+  transition: 2s linear 0.5s;
+  font-size: 5rem;
+  color: blue;
+}
+
+.second-part{
+  background-color: var(--color);
+  height: 70vh;
+}
+
+.link:hover{
+  font-size: 2em;
+  transform: translateX(10px);
+  color: tomato;
+  transition-duration: 3s;
+  transition-delay: 30ms;
+}
+

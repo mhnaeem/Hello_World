@@ -1,0 +1,4 @@
+1) Install Node.js and React
+2) Run the "create-react-app" command
+3) Replace the contents in the new folder with the contents provided
+4) Run the "npm start" command
